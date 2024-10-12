@@ -1,0 +1,26 @@
+
+// declaramos nuestras variables de colores y fuente
+
+$background-color: #FFEFE7;
+$title-and-text-color: #7C6A0A;
+$button-text-color: #FFFFFF;
+$card-health-color: #FFDAC6;
+$card-home-color: #BABD8D;
+$secondary-text-color: #E86424;
+
+$font-stack: "IBM Plex Sans", sans-serif;
+
+// empezamos a dar estilos
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $background-color;
+}
+
+.footer {
+    $background-color: #FA9500;
+
+    background-color: $background-color;
+}
