@@ -9,6 +9,12 @@ $card-health-color: #FFDAC6;
 $card-home-color: #BABD8D;
 $secondary-text-color: #E86424;
 
+$h1: 4.8rem;
+$h2: 3.2rem;
+$h3: 2.4rem;
+$letter-lg: 2rem;
+$letter-md: 1.6rem;
+
 $font-stack: "IBM Plex Sans", sans-serif;
 
 // empezamos a dar estilos
@@ -34,7 +40,7 @@ header {
     width: auto;
     margin-bottom: 4.8rem;
 
-    nav {
+    .navbar {
         padding: 4rem;
         display: flex;
         justify-content: space-between;
@@ -42,7 +48,7 @@ header {
     }
 
     p {
-        font-size: 2.4rem;
+        font-size: $letter-lg;
         padding-left: 3.2rem;
     }
 
@@ -55,14 +61,14 @@ header {
 
 main {
     width: auto;
-    margin-bottom: 3.2rem;
+    margin-bottom: 4.8rem;
 
     article {
         padding: 4rem;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 3.2rem;
         align-items: center;
+        margin-bottom: 3.2rem;
 
         .impact-section {
             padding-left: 3.2rem;
@@ -73,7 +79,7 @@ main {
             gap: 4.8rem;
 
             h1 {
-                font-size: 4.8rem;
+                font-size: $h1;
             }
             p {
                 font-size: 2.4rem;
@@ -94,6 +100,74 @@ main {
             border-radius: 24px;
         }
     }
+
+    h2 {
+        font-size: $h2;
+        padding-left: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .product-section {
+        padding: 4rem;
+        margin-bottom: 3.2rem;
+
+        .healthcare {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 3.2rem;
+            column-gap: 200px;
+            row-gap: 80px;
+            .product-card {
+                width: 14vw;
+                min-height: 60vh;
+                background-color: $card-health-color;
+                color: $title-and-text-color;
+                padding: 2rem;
+                border-radius: 8px;
+                .icon {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-bottom: 1.2rem;
+                    svg {
+                        width: 28px;
+                        height: 28px;
+                    }
+                }
+                .product-image {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        object-fit: cover;
+                        width: 12vw;
+                        height: 30vh;
+                        border-radius: 8px;
+                    }
+                }
+                h3 {
+                    margin: .8rem 0px;
+                    font-size: $h3;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: $letter-md;
+                }
+            }
+
+        }
+        .furniture {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 3.2rem;
+        }
+    }
+
 }
 
 
