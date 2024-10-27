@@ -9,27 +9,69 @@ html {
 }
 
 body {
+  width: 100%;
   background-color: #FFEFE7;
+  color: #7C6A0A;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+header {
+  width: auto;
+  margin-bottom: 4.8rem;
+}
 header nav {
-  width: 100%;
-  padding: 1.6rem;
-  color: #7C6A0A;
+  padding: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3.2rem;
 }
-header nav p {
+header p {
   font-size: 2.4rem;
   padding-left: 3.2rem;
 }
-header nav .icons {
+header .icons {
   list-style-type: none;
   display: flex;
-  gap: 1.6rem;
+  gap: 2.4rem;
+}
+
+main {
+  width: auto;
+  margin-bottom: 3.2rem;
+}
+main article {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+  align-items: center;
+}
+main article .impact-section {
+  padding-left: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 4.8rem;
+  gap: 4.8rem;
+}
+main article .impact-section h1 {
+  font-size: 4.8rem;
+}
+main article .impact-section p {
+  font-size: 2.4rem;
+}
+main article .impact-section button {
+  border-style: none;
+  background-color: #FA9500;
+  color: #FFFFFF;
+  width: 12vw;
+  border-radius: 36px;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+main article .image-section img {
+  width: 25vw;
+  border-radius: 24px;
 }
 
 .footer {

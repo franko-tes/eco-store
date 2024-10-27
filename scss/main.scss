@@ -4,6 +4,7 @@
 $background-color: #FFEFE7;
 $title-and-text-color: #7C6A0A;
 $button-text-color: #FFFFFF;
+$button-background: #FA9500;
 $card-health-color: #FFDAC6;
 $card-home-color: #BABD8D;
 $secondary-text-color: #E86424;
@@ -23,18 +24,22 @@ html{
 }
 
 body {
+    width: 100%;
     background-color: $background-color;
+    color: $title-and-text-color;
     font-family: $font-stack;
 }
 
-header nav {
-    width: 100%;
-    padding: 1.6rem;
-    color: $title-and-text-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3.2rem;
+header {
+    width: auto;
+    margin-bottom: 4.8rem;
+
+    nav {
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     p {
         font-size: 2.4rem;
@@ -44,10 +49,52 @@ header nav {
     .icons {
         list-style-type: none;
         display: flex;
-        gap: 1.6rem;
+        gap: 2.4rem;
     }
 }
 
+main {
+    width: auto;
+    margin-bottom: 3.2rem;
+
+    article {
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3.2rem;
+        align-items: center;
+
+        .impact-section {
+            padding-left: 3.2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-right: 4.8rem;
+            gap: 4.8rem;
+
+            h1 {
+                font-size: 4.8rem;
+            }
+            p {
+                font-size: 2.4rem;
+            };
+            button {
+                border-style: none;
+                background-color: $button-background;
+                color: $button-text-color;
+                width: 12vw;
+                border-radius: 36px;
+                padding: 2rem;
+                font-size: 1.6rem;
+            }
+        }
+
+        .image-section img{
+            width: 25vw;
+            border-radius: 24px;
+        }
+    }
+}
 
 
 .footer {
