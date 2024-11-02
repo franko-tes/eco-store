@@ -75,7 +75,7 @@ main article .image-section img {
 }
 main h2 {
   font-size: 3.2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 main .product-section {
   padding: 4rem;
@@ -87,7 +87,7 @@ main .product-section .healthcare {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
   -moz-column-gap: 84px;
        column-gap: 84px;
   row-gap: 80px;
