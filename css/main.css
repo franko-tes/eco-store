@@ -131,6 +131,11 @@ main .product-section .healthcare .product-card h3, main .product-section .furni
 main .product-section .healthcare .product-card p, main .product-section .furniture .product-card p {
   font-size: 1.6rem;
 }
+main .product-section .furniture .product-card {
+  background-color: #BABD8D;
+  color: #FFFFFF;
+}
+
 .footer {
   background-color: #FA9500;
 }/*# sourceMappingURL=main.css.map */

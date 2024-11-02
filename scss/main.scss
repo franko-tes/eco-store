@@ -162,6 +162,10 @@ main {
 
         .furniture {
             @extend .healthcare;
+            .product-card {
+                background-color: $card-home-color;
+                color: $button-text-color;
+            }
         }
     }
 
