@@ -42,6 +42,7 @@ header {
 
     .navbar {
         padding: 4rem;
+        padding-left: 7.2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -49,7 +50,6 @@ header {
 
     p {
         font-size: $letter-lg;
-        padding-left: 3.2rem;
     }
 
     .icons {
@@ -65,13 +65,13 @@ main {
 
     article {
         padding: 4rem;
+        padding-left: 7.2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 3.2rem;
 
         .impact-section {
-            padding-left: 3.2rem;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -103,12 +103,13 @@ main {
 
     h2 {
         font-size: $h2;
-        padding-left: 3.2rem;
-        margin-bottom: 3.2rem;
+        // padding-left: 3.2rem;
+        margin-bottom: 4rem;
     }
 
     .product-section {
         padding: 4rem;
+        padding-left: 7.2rem;
         margin-bottom: 3.2rem;
 
         .healthcare {
@@ -116,11 +117,11 @@ main {
             justify-content: space-evenly;
             align-items: center;
             flex-wrap: wrap;
-            margin-bottom: 3.2rem;
-            column-gap: 200px;
+            margin-bottom: 4rem;
+            column-gap: 84px;
             row-gap: 80px;
             .product-card {
-                width: 14vw;
+                width: 20vw;
                 min-height: 60vh;
                 background-color: $card-health-color;
                 color: $title-and-text-color;

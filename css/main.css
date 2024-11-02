@@ -21,13 +21,13 @@ header {
 }
 header .navbar {
   padding: 4rem;
+  padding-left: 7.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 header p {
   font-size: 2rem;
-  padding-left: 3.2rem;
 }
 header .icons {
   list-style-type: none;
@@ -41,13 +41,13 @@ main {
 }
 main article {
   padding: 4rem;
+  padding-left: 7.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3.2rem;
 }
 main article .impact-section {
-  padding-left: 3.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -75,11 +75,11 @@ main article .image-section img {
 }
 main h2 {
   font-size: 3.2rem;
-  padding-left: 3.2rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 4rem;
 }
 main .product-section {
   padding: 4rem;
+  padding-left: 7.2rem;
   margin-bottom: 3.2rem;
 }
 main .product-section .healthcare {
@@ -87,13 +87,13 @@ main .product-section .healthcare {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 3.2rem;
-  -moz-column-gap: 200px;
-       column-gap: 200px;
+  margin-bottom: 4rem;
+  -moz-column-gap: 84px;
+       column-gap: 84px;
   row-gap: 80px;
 }
 main .product-section .healthcare .product-card {
-  width: 14vw;
+  width: 20vw;
   min-height: 60vh;
   background-color: #FFDAC6;
   color: #7C6A0A;
