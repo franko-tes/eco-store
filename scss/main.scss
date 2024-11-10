@@ -124,13 +124,16 @@ main {
                 min-height: 60vh;
                 background-color: $card-health-color;
                 color: $title-and-text-color;
-                padding: 2rem;
+                padding: 1.2rem;
                 border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
                 .icon {
                     width: 100%;
                     display: flex;
                     justify-content: flex-end;
-                    padding-bottom: 1.2rem;
                     svg {
                         width: 28px;
                         height: 28px;
@@ -143,8 +146,8 @@ main {
                     align-items: center;
                     img {
                         object-fit: cover;
-                        width: 12vw;
-                        height: 30vh;
+                        width: 16vw;
+                        height: 40vh;
                         border-radius: 8px;
                     }
                 }
