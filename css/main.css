@@ -20,11 +20,12 @@ header {
   margin-bottom: 4.8rem;
 }
 header .navbar {
-  padding: 4rem;
-  padding-left: 7.2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 4rem;
+  padding-left: 7.2rem;
 }
 header p {
   font-size: 2rem;
@@ -40,17 +41,19 @@ main {
   margin-bottom: 4.8rem;
 }
 main article {
-  padding: 4rem;
-  padding-left: 7.2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 4rem;
+  padding-left: 7.2rem;
   margin-bottom: 3.2rem;
 }
 main article .impact-section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: flex-start;
   margin-right: 4.8rem;
   gap: 4.8rem;
 }
@@ -68,6 +71,7 @@ main article .impact-section button {
   border-radius: 36px;
   padding: 2rem;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 main article .image-section img {
   width: 25vw;
@@ -84,12 +88,13 @@ main .product-section {
 }
 main .product-section .healthcare, main .product-section .furniture {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 8rem;
-  -moz-column-gap: 84px;
-       column-gap: 84px;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
   row-gap: 80px;
 }
 main .product-section .healthcare .product-card, main .product-section .furniture .product-card {
@@ -97,14 +102,17 @@ main .product-section .healthcare .product-card, main .product-section .furnitur
   min-height: 60vh;
   background-color: #FFDAC6;
   color: #7C6A0A;
-  padding: 2rem;
+  padding: 1.2rem;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
 main .product-section .healthcare .product-card .icon, main .product-section .furniture .product-card .icon {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 1.2rem;
 }
 main .product-section .healthcare .product-card .icon svg, main .product-section .furniture .product-card .icon svg {
   width: 28px;
@@ -119,8 +127,8 @@ main .product-section .healthcare .product-card .product-image, main .product-se
 main .product-section .healthcare .product-card .product-image img, main .product-section .furniture .product-card .product-image img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 12vw;
-  height: 30vh;
+  width: 16vw;
+  height: 32vh;
   border-radius: 8px;
 }
 main .product-section .healthcare .product-card h3, main .product-section .furniture .product-card h3 {
@@ -135,7 +143,37 @@ main .product-section .furniture .product-card {
   background-color: #BABD8D;
   color: #FFFFFF;
 }
-
+main .info-section {
+  padding: 4rem;
+  padding-left: 7.2rem;
+  margin-bottom: 3.2rem;
+}
+main .info-section .about-us {
+  margin-bottom: 8rem;
+}
+main .info-section .about-us .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .info-section .about-us .earth, main .info-section .about-us .innovation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  gap: 4rem;
+  color: #E86424;
+}
+main .info-section .about-us .earth img, main .info-section .about-us .innovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .info-section .about-us .earth p, main .info-section .about-us .innovation p {
+  font-size: 2rem;
+  text-align: center;
+}
 .footer {
   background-color: #FA9500;
 }/*# sourceMappingURL=main.css.map */
