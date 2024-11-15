@@ -96,6 +96,9 @@ main {
                 padding: 2rem;
                 font-size: 1.6rem;
                 cursor: pointer;
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
 
@@ -198,6 +201,23 @@ main {
             }
             .innovation {
                 @extend .earth
+            }
+        }
+        .gallery {
+            margin-bottom: 8rem;
+            .gallery-images {
+                @include flexCenter(row, space-between, center);
+                img {
+                    width: 28vw;
+                    height: 45vh;
+                    object-fit: cover;
+                    object-position: 5px 35%;
+                    border-radius: 16px;
+                    &:hover {
+                        transform: scale(1.1);
+                        transition-duration: 0.3s;
+                    }
+                }
             }
         }
     }

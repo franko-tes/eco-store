@@ -73,6 +73,9 @@ main article .impact-section button {
   font-size: 1.6rem;
   cursor: pointer;
 }
+main article .impact-section button:hover {
+  transform: scale(1.1);
+}
 main article .image-section img {
   width: 25vw;
   border-radius: 24px;
@@ -174,6 +177,29 @@ main .info-section .about-us .earth p, main .info-section .about-us .innovation 
   font-size: 2rem;
   text-align: center;
 }
+main .info-section .gallery {
+  margin-bottom: 8rem;
+}
+main .info-section .gallery .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .info-section .gallery .gallery-images img {
+  width: 28vw;
+  height: 45vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+  border-radius: 16px;
+}
+main .info-section .gallery .gallery-images img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
 .footer {
   background-color: #FA9500;
 }/*# sourceMappingURL=main.css.map */
