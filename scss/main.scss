@@ -241,6 +241,21 @@ main {
 
 .footer {
     $footer-background-color: #FA9500;
-
+    width: 100%;
+    padding: 4rem 7.5rem;
+    color: $button-text-color;
     background-color: $footer-background-color;
+    .social-media {
+        @include flexCenter(row, center, center);
+        gap: 4rem;
+    }
+    h3 {
+        font-size: $h3;
+    }
+    p {
+        font-size: $letter-md;
+    }
+    h3, p {
+        margin-bottom: 2rem;
+    }
 }

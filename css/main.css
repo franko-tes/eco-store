@@ -218,5 +218,24 @@ main .info-section .location h3, main .info-section .location p {
 }
 
 .footer {
+  width: 100%;
+  padding: 4rem 7.5rem;
+  color: #FFFFFF;
   background-color: #FA9500;
+}
+.footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.footer h3 {
+  font-size: 2.4rem;
+}
+.footer p {
+  font-size: 1.6rem;
+}
+.footer h3, .footer p {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=main.css.map */
