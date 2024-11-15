@@ -51,7 +51,7 @@ header {
 
     .navbar {
         @include flexCenter(row, space-between, center);
-        padding: 4rem;
+        padding: 4rem 7.5rem;
         padding-left: 7.2rem;
     }
 
@@ -72,8 +72,7 @@ main {
 
     article {
         @include flexCenter(row, space-between, center);
-        padding: 4rem;
-        padding-left: 7.2rem;
+        padding: 4rem 7.5rem;
         margin-bottom: 3.2rem;
 
         .impact-section {
@@ -114,8 +113,7 @@ main {
     }
 
     .product-section {
-        padding: 4rem;
-        padding-left: 7.2rem;
+        padding: 4rem 7.5rem;
         margin-bottom: 3.2rem;
 
         .healthcare {
@@ -178,8 +176,7 @@ main {
     }
 
     .info-section {
-        padding: 4rem;
-        padding-left: 7.2rem;
+        padding: 4rem 7.5rem;
         margin-bottom: 3.2rem;
         .about-us {
             margin-bottom: 8rem;
@@ -218,6 +215,25 @@ main {
                         transition-duration: 0.3s;
                     }
                 }
+            }
+        }
+        .location {
+            .map {
+                @include flexCenter(row, center, center);
+                padding-bottom: 5rem;
+                img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: $h3;
+                margin-bottom: 1.2rem;
+            }
+            p {
+                font-size: $letter-lg;
+            }
+            h3, p {
+                color: $secondary-text-color;
             }
         }
     }

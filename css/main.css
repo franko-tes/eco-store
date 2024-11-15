@@ -24,7 +24,7 @@ header .navbar {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 4rem 7.5rem;
   padding-left: 7.2rem;
 }
 header p {
@@ -45,8 +45,7 @@ main article {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
-  padding-left: 7.2rem;
+  padding: 4rem 7.5rem;
   margin-bottom: 3.2rem;
 }
 main article .impact-section {
@@ -85,8 +84,7 @@ main h2 {
   margin-bottom: 8rem;
 }
 main .product-section {
-  padding: 4rem;
-  padding-left: 7.2rem;
+  padding: 4rem 7.5rem;
   margin-bottom: 3.2rem;
 }
 main .product-section .healthcare, main .product-section .furniture {
@@ -147,8 +145,7 @@ main .product-section .furniture .product-card {
   color: #FFFFFF;
 }
 main .info-section {
-  padding: 4rem;
-  padding-left: 7.2rem;
+  padding: 4rem 7.5rem;
   margin-bottom: 3.2rem;
 }
 main .info-section .about-us {
@@ -198,6 +195,26 @@ main .info-section .gallery .gallery-images img {
 main .info-section .gallery .gallery-images img:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
+}
+main .info-section .location .map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+main .info-section .location .map img {
+  width: 100%;
+}
+main .info-section .location h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+main .info-section .location p {
+  font-size: 2rem;
+}
+main .info-section .location h3, main .info-section .location p {
+  color: #E86424;
 }
 
 .footer {
