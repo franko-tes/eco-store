@@ -370,4 +370,126 @@ main .info-section .location h3, main .info-section .location p {
     width: 22px;
     height: 23px;
   }
+}
+@media (min-width: 601px) and (max-width: 1023px) {
+  header {
+    margin-bottom: 0;
+  }
+  header .navbar {
+    padding: 2rem 3.2rem;
+  }
+  main {
+    margin-bottom: 0;
+  }
+  main article {
+    padding: 2rem 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+  main article .image-section img {
+    width: 100%;
+    max-height: 80vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main article .impact-section {
+    margin-right: 4rem;
+    gap: 4rem;
+    width: 100%;
+  }
+  main article .impact-section h1 {
+    font-size: 3.6rem;
+    text-wrap: pretty;
+  }
+  main article .impact-section p {
+    font-size: 1.6rem;
+    text-wrap: pretty;
+  }
+  main article .impact-section button {
+    min-width: 24vw;
+  }
+  main h2 {
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  main .product-section {
+    padding: 2rem 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+  main .product-section .healthcare, main .product-section .furniture {
+    justify-content: normal;
+    flex-wrap: nowrap;
+    margin-bottom: 4rem;
+    -moz-column-gap: 28px;
+         column-gap: 28px;
+    row-gap: 40px;
+    overflow-x: auto;
+  }
+  main .product-section .healthcare .product-card, main .product-section .furniture .product-card {
+    width: 40vw;
+  }
+  main .product-section .healthcare .product-card .icon, main .product-section .furniture .product-card .icon {
+    margin-bottom: 0.8rem;
+  }
+  main .product-section .healthcare .product-card .product-image img, main .product-section .furniture .product-card .product-image img {
+    width: 40vw;
+  }
+  main .product-section .healthcare .product-card h3, main .product-section .furniture .product-card h3 {
+    font-size: 2rem;
+  }
+  main .product-section .healthcare .product-card p, main .product-section .furniture .product-card p {
+    font-size: 1.6rem;
+  }
+  main .info-section {
+    padding: 2rem 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+  main .info-section .about-us {
+    margin-bottom: 4rem;
+  }
+  main .info-section .about-us .icons {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  main .info-section .about-us .icons .earth, main .info-section .about-us .icons .innovation {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .info-section .about-us .icons .earth p, main .info-section .about-us .icons .innovation p {
+    font-size: 1.6rem;
+    text-wrap: pretty;
+  }
+  main .info-section .gallery {
+    margin-bottom: 4rem;
+  }
+  main .info-section .gallery .gallery-images {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  main .info-section .gallery .gallery-images img {
+    width: 72vw;
+    height: 60vh;
+  }
+  main .info-section .location h3 {
+    font-size: 2rem;
+  }
+  main .info-section .location p {
+    font-size: 1.6rem;
+  }
+  .footer {
+    padding: 2rem 3.2rem;
+  }
+  .footer h3 {
+    font-size: 2rem;
+  }
+  .footer p {
+    font-size: 1.6rem;
+  }
+  .footer .social-media {
+    margin-top: 2.4rem;
+    gap: 2rem;
+  }
+  .footer .social-media img {
+    width: 22px;
+    height: 23px;
+  }
 }/*# sourceMappingURL=main.css.map */
